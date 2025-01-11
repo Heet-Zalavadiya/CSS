@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tricks-2</title>
+    <style>
+        @keyframes blink{
+            0%{
+                background: indigo;
+            }
+            30%{
+                background: red;
+            }
+            50%{
+                background: yellow;
+            }
+            70%{
+                background: green;
+            }
+           100%{
+                background: blue;
+            }
+        }
+
+        div{
+            height: 400px;
+            width: 400px;
+            border: 1px solid black;
+            animation: blink 10s infinite;
+            -webkit-animation: blink 10s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
