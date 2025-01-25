@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 6</title>
+    <style>
+        .navbar{
+            background-color: pink;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+        a{
+            text-decoration: none;
+            color: antiquewhite;
+            
+        }
+        li{
+            list-style-type: none;
+            display: inline;
+            background-color: aquamarine;
+        }
+        .outer{
+            height: 400px;
+            width: 400px;
+            background-color: bisque;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .inner{
+            height: 100px;
+            width: 100px;
+            background-color: azure;
+            /*align-self: flex-start; high priority then align items*/
+        }
+    </style>
+</head>
+<body>
+
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Help</a></li>
+    </ul>
+    <div class="outer">
+        <div class="inner">
+
+        </div>
+    </div>
+
+</body>
+</html>
