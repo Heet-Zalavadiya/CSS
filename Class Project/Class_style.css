@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    background-color: aliceblue;
+}
+
+.head{
+    display: flex;
+    background-color: blue;
+    height: 80px;
+    width:100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+
+   
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 15px;
+    background-color: blue;
+    border-top: 5px solid black;
+    height: 60px;
+    width: 100%;
+}
+ 
+.navbar a{
+    color: white;
+    text-decoration: none;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: larger;
+   font-weight: 600;
+   padding: 10px;
+   text-transform:capitalize;
+   transition: all 0.3s ease-in-out;
+   border-radius: 5px;
+  
+}
+.navbar a:hover{
+   color:beige;
+   font-size: x-large;
+   background-color:darkcyan;
+}
+.main{
+    height: 55%;
+    width: 100%;
+    background-color: white;
+}
+.left{
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color:beige;
+   
+}
+.left h2{
+    color:crimson;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px;
+}
+.left p{
+    text-align: justify;
+    justify-content: center;
+    padding: 10%;
+    padding-top: 0%;
+    text-transform: capitalize;
+    line-height: 1.8;
+    font-size: large;
+    font-weight:800 ;
+}
+.right{
+    float: left;
+    width: 75%;
+    height: 100%;
+    background-color: beige;
+}
+.right h1{
+    color:darkcyan;
+    padding: 10px;
+    padding-top: 5px;
+    margin-left: 150px;
+    font-weight: 900;
+}
+.right p{
+    text-align: justify;
+    padding: 20px;
+    margin-left: 80px;
+    word-spacing: 15px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size:medium;
+
+}
+footer{
+    height: 20%;
+    background-color: rgb(32, 32, 32);
+    border-top: 10px solid gray;
+    text-align: center;
+    justify-content: center;
+}
+footer p{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+
+}
